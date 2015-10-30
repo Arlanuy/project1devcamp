@@ -2,90 +2,187 @@ body{
     text-align: center;
     background: url("images/image.jpg");
     color: #3366CC;
-    margin:0px;
     font-family: Lato, "times new roman", sans-serif;
+    margin:3%;
 }
 
-.intro-panel {
-    background: #ffffff;
-    margin:100px;
-    padding:20px;
+.container{
+    background: #000000; padding:2em; max-width: 100%;margin-top:-110%;
+}
+
+.page-wrap{
+    color:red;
+}
+
+h2{
+    text-align:left;
+    font-size:35px;
+}
+
+p{
+    text-indent:2em; text-align:left; font-size:25px; line-height: 3em;
+}
+
+.select-panel{
+    margin-top: -5%;
 }
 
 #me{
-    float:right;
-    clear: both;
+    padding:30px 0 30px 0;
+    margin-left: 8%;
+}
+
+h3{
     position:relative;
-    bottom:50px;
+    left:2%;
+    text-align: center;
+    font-size:30px;
 }
 
-#body_panels{
+.intro-column {
     background: #ffffff;
-    margin:100px;
-    padding:50px;
-    margin-top: 100px;
-}
-
-h1{
-    color: blue;
-    font-size: 25px;
-    font-weight: bolder;
-
+    padding: 5%;
+    margin:1.5% 2% 0 5%;
 }
 
 #intro-text{
-    text-align:left;
+    font-size:35px;
 }
 
-.description-panel{
+.body-panels{
     background: #ffffff;
-    margin-bottom: 200px;
+    margin:10px;
+    padding:10px;
+    margin-top: 3%;
+    line-height:180%;
+}
+
+
+.uplife-panel{
+    margin-bottom: 100px;
 }
 
 .experiences-panel{
-    margin-bottom: 300px;
+    margin-bottom: 100px;
 }
 
 .favorites-panel{
-    margin-bottom: 400px;
+    margin-bottom: 100px;
+    text-align:left;
+    text-indent:2em;
 }
 
 
-nav ul {
-    overflow: hidden; width: 1400px;
+nav ul{
+    overflow: hidden;
 
 }
 nav ul li {
-    width: 20%; display: block; float: left; background-color: green; border-radius: 8px; margin: 0 0 3% 3%; padding:10px;
+    width: 23%; display:inline-block; background-color: orange; border-radius: 1em; margin:6% 5% 0 5%;
 }
-nav ul li a {
-    padding-left: 2px; text-decoration: none; text-align: center; color: white; text-transform: uppercase; font-size: 12px;
+nav ul li a{
+    text-decoration: none; text-transform: uppercase; font-size: 36px width: 20%; min-height:15px; font-size: 35px;
 }
-nav ul li a:hover {
-    color: maroon; background-color: yellow;
-}
-
-nav ul li a:active {
-    color: violet; background-color: gold; font-weight: bold;
+nav ul li:hover {
+      background-color: yellow;
 }
 
-nav ul li:first-child a {
-    margin-left: 10px;
-}
-
-nav ul li:last-child a {
-    margin-right: auto;
+nav ul li:active {
+    color: red; background-color: gold; font-weight: bold;
 }
 
 ul { list-style-type: none; color: #004060; font-size: 16px; font-weight: bold;}
 
+@media screen and (max-width: 480px) {
 
-@media (max-width:500px) {
-    .intro-panel {
-        width:600px;
+	html {
+		-webkit-text-size-adjust: none;
+	}
+
+    .page-wrap {
+        margin:0;
+    }
+
+    h2{
+        font-size: 85%;
+    }
+
+    p{
+        font-size: 85%;
+        margin:1%
+    }
+
+    #intro-text{
+        font-size:85%;
+    }
+
+    h3{
+        font-size: 85%;
+        left:4%;
     }
 }
-/**
+
+@media screen and (max-width: 1365px) {
+
+	nav ul li{
+        width: 50%; margin:5% 0 5% 0; display:block; margin-left:auto; margin-right:auto;
+    }
+
+    nav ul li a{
+        font-size: 16px;  width: 60%; text-align: center; margin-left:auto; margin-right:auto;
+    }
+}
+
+@media screen and (max-width: 1364px) and (min-width: 900px) {
+    .page-wrap {
+        padding: 5%;
+        margin:2%;
+
+    }
+
+    h2{
+        font-size: 95%;
+    }
+
+    p{
+        font-size: 95%; margin: 5%
+    }
+
+    #intro-text{
+        font-size:95%
+    }
+
+    h3{
+        font-size: 95%;
+    }
+}
+
+@media screen and (max-width: 899px) and (min-width: 481px) {
+    .page-wrap {
+        padding: 5%;
+        margin:1%;
+    }
+
+    h2{
+        font-size: 90%
+    }
+
+    p{
+        font-size: 90%;
+        margin:3%;
+    }
+
+    h3{
+        font-size: 90%;
+    }
+
+    #intro-text{
+        font-size:90%
+    }
+}
+
+
+/** Soon to come
 @media screen and (orientation: portrait) {
   img.ri { max-width: 90%; }
 }
