@@ -93,7 +93,7 @@ nav ul li:active {
 
 ul { list-style-type: none; color: #004060; font-size: 16px; font-weight: bold;}
 
-@media screen and (max-width: 480px) or (max-device-width: 480px) {
+@media screen and (max-width: 480px){
 
 	html {
 		-webkit-text-size-adjust: none;
@@ -130,7 +130,7 @@ ul { list-style-type: none; color: #004060; font-size: 16px; font-weight: bold;}
     }
 }
 
-@media screen and (max-width: 1365px) or (max-device-width: 1365px) or (min-device-width: 900px){
+@media screen and (max-width: 1365px) {
 
 	nav ul li{
         width: 50%; margin:5% 0 5% 0; display:block; margin-left:auto; margin-right:auto;
@@ -141,7 +141,7 @@ ul { list-style-type: none; color: #004060; font-size: 16px; font-weight: bold;}
     }
 }
 
-@media screen and (max-width: 1364px) and (min-width: 900px) or (min-device-width:481px){
+@media screen and (max-width: 1364px) and (min-width: 900px){
     .page-wrap {
         padding: 5%;
         margin:2%;
