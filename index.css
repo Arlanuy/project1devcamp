@@ -2,16 +2,12 @@ body{
     text-align: center;
     background: url("images/image.jpg");
     color: #3366CC;
-    font-family: Lato, "times new roman", sans-serif;
+    font-family: Lato,  Arial, "times new roman", sans-serif;
     margin:3%;
 }
 
 .container{
-    background: #000000; padding:2em; max-width: 100%;margin-top:-110%;
-}
-
-.page-wrap{
-    color:red;
+    color:red; padding:2em; max-width: 100%;
 }
 
 h2{
@@ -81,14 +77,14 @@ nav ul li {
     width: 23%; display:inline-block; background-color: orange; border-radius: 1em; margin:6% 5% 0 5%;
 }
 nav ul li a{
-    text-decoration: none; text-transform: uppercase; font-size: 36px width: 20%; min-height:15px; font-size: 35px;
+    text-decoration: none; text-transform: uppercase; font-size: 36px; width: 20%; min-height:15px; font-size: 35px;
 }
 nav ul li:hover {
       background-color: yellow;
 }
 
 nav ul li:active {
-    color: red; background-color: gold; font-weight: bold;
+    color: red; background-color: maroon; font-weight: bold;
 }
 
 ul { list-style-type: none; color: #004060; font-size: 16px; font-weight: bold;}
@@ -145,8 +141,10 @@ ul { list-style-type: none; color: #004060; font-size: 16px; font-weight: bold;}
     .page-wrap {
         padding: 5%;
         margin:2%;
-    ul li
-        ue
+    }
+
+    nav ul li{
+        height:180%;
     }
 
     h2{
